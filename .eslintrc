@@ -1,9 +1,12 @@
 {
-  "parserOptions": {
-    "ecmaVersion": "2018"
-  },
-  "extends": ["eslint:recommended", "eslint-config-prettier"],
-  "env": {
-    "browser": true
-  }
+	"parserOptions": {
+		"ecmaVersion": "2018",
+		"sourceType": "module"
+	},
+	"extends": ["eslint:recommended", "eslint-config-prettier"],
+	"env": {
+		"browser": true,
+		"amd": true,
+		"node": true
+	}
 }
